@@ -26,8 +26,8 @@ def print_table(data, header=None):
 
 
 if __name__ == '__main__':
-    print_pyramid(15)
-    print_pyramid_r(15)
+    print_pyramid(5)
+    print_pyramid_r(5)
     f = faker.Faker()
     profiles = []
     for _ in range(20):
